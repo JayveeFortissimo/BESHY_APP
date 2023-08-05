@@ -1,0 +1,42 @@
+#size{
+    width: 100%;
+    max-width: 500px;
+}
+
+.TEXT{
+ height: 4rem;
+ width:100%;
+ max-width: 600px;
+ border: 1px solid black;
+}
+
+
+.Child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px;
+    height: 19rem;
+    width: 100%;
+    max-width: 470px;
+    background-color: #ffffff02;
+    backdrop-filter: blur(15px);
+}
+
+body{
+background-image: url(e.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+
+
+}
+
+.Parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
